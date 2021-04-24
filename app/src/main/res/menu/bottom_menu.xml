@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/account"
+        android:enabled="true"
+        android:icon="@drawable/ic_account"
+        android:iconTint="#070707"
+        android:title="ItemAccount"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/heart"
+        android:enabled="true"
+        android:icon="@drawable/ic_heart"
+        android:iconTint="#040303"
+        android:title="Favorite"
+        app:showAsAction="always" />
+</menu>
